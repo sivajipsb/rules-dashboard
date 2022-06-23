@@ -1,16 +1,48 @@
 {
-  "posts":[
+  "ruleArray": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "name": "Assessment",
+      "id": 4
+    },
+    {
+      "name": "Assessment",
+      "id": 7
+    },
+    {
+      "name": "Default Rule",
+      "id": 8
+    },
+    {
+      "name": "Default Rule",
+      "id": 9
     }
   ],
-  "comments" : [
+  "actionArray": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "action": "START NEW APP",
+      "id": 14
+    },
+    {
+      "action": "START NEW APP",
+      "id": 16
+    },
+    {
+      "action": "START NEW APP",
+      "id": 17
+    }
+  ],
+  "conditionArray": [
+    {
+      "condition": "take overview",
+      "id": 3
+    },
+    {
+      "condition": "take assessment",
+      "id": 4
+    },
+    {
+      "condition": "urgent",
+      "id": 5
     }
   ]
 }
